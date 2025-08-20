@@ -1,0 +1,7 @@
+.bestSellersContainerCardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    gap: 25%;
+}

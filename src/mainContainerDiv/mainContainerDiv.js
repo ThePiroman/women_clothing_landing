@@ -1,4 +1,4 @@
-import MainContainerButton from '../mainContainerButton/main';
+import MainContainerButton from '../mainContainerButton/mainContainerButton';
 import './style.css'
 
 export default class MainContainerDiv {

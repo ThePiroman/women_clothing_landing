@@ -1,0 +1,31 @@
+
+.bestSellersContainerCard img {
+    width: 392px;
+    height: 438px;
+}
+
+.bestSellersContainerCardTitle {
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.bestSellersContainerCardDesc {
+    font-size: 125%;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.bestSellersContainerCardPrice {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+.bestSellersContainerCardCircle {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 5%;
+}
