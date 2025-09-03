@@ -16,8 +16,16 @@ export default class BestSellersContainerCard {
         const comp = document.createElement("div");
         comp.className = "bestSellersContainerCard";
 
+        const imgDiv = document.createElement("div")
+        imgDiv.className = "bestSellersContainerCardImgContainer"
+
         const img = document.createElement('img');
+        img.className = "bestSellersContainerCardImg";
         img.src = this.image;
+
+        const imgOverlay = document.createElement('img');
+        imgOverlay.className = "bestSellersContainerCardFavorite"
+        imgOverlay.src = '../assets/img/HeaderFavorite.svg';
 
         const titleText = document.createElement('p');
         titleText.className = 'bestSellersContainerCardTitle';
@@ -45,8 +53,9 @@ export default class BestSellersContainerCard {
         circle3.style.backgroundColor = this.color3;
         circle3.style.marginLeft = "2.5%";
 
-
-        comp.appendChild(img);
+        comp.appendChild(imgDiv);
+        imgDiv.appendChild(imgOverlay);
+        imgDiv.appendChild(img);
         comp.appendChild(titleText);
         comp.appendChild(descText);
         comp.appendChild(priceText);
