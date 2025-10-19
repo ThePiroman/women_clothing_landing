@@ -1,0 +1,11 @@
+.headerNavLink a {
+    color:black;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.headerNavLink {
+    font-weight: 400;
+    font-size: 18px;
+}

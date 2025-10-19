@@ -1,0 +1,20 @@
+.preHeader {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #5A6D57;
+    padding: 10px;
+}
+
+.preHeader p {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.8px;
+    text-align: center;
+    vertical-align: bottom;
+}

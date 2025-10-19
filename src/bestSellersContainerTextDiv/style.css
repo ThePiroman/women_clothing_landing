@@ -1,0 +1,22 @@
+.bestSellersContainerTextDiv {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 5%;
+    gap: 85%;
+}
+
+.bestSellersContainerTextHeadText {
+    font-size: 250%;
+}
+
+.bestSellersContainerTextLink {
+    font-size: 100%;
+}
+
+.bestSellersContainerTextLink a {
+    color:#5A6D57;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
